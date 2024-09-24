@@ -9,8 +9,8 @@ echo "Multiplication: 10 * 10 = $((10 * 10))"
 echo "Division: 10 / 10 = $((10 / 10))"
 echo "Modulo: 10 % 4 = $((10 % 4))"
 
-((increase++))
+((var_incr++))
 echo "Variable incr : $var_incr"
 
-((decrease--))
+((var_decr--))
 echo "Variable decr : $var_decr"
