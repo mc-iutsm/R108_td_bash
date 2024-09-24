@@ -1,5 +1,5 @@
 #!/bin/bash
-if condition 
+if [condition]
 then 
   statement1
 else 
