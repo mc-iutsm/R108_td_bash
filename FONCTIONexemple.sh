@@ -14,10 +14,15 @@ f3 () {
         echo "Bye!"
 }
 # déclaration de la fonction avec un mot clé sur une ligne
-f4 () { "bonjour je suis la 4ème fonction"; echo "Bye!"; }
+f4 () { echo "bonjour je suis la 4ème fonction"; echo "Bye!"; }
 
-# Invoking functions
+# utilisation des fonctions
 f4
+sleep 2 
+# la commande sleep ici permet de faire une pause entre chacune des fonctions. 
+# c'est pour la lisibilité lors de l'exécution du script 
 f3
+sleep 2
 f2
+sleep 2 
 f1
