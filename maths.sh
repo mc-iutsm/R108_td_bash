@@ -1,16 +1,31 @@
 #!/bin/bash
 
-var_incr=1
-var_decr=1
+a=4
+b=9
 
-echo "Addition: 10 + 10 = $((10 + 10))"
-echo "Soustraction: 10 - 10 = $((10 - 10))"
-echo "Multiplication: 10 * 10 = $((10 * 10))"
-echo "Division: 10 / 10 = $((10 / 10))"
-echo "Modulo: 10 % 4 = $((10 % 4))"
+echo "a = $a"
+echo "b = $b"
 
-((var_incr++))
-echo "Variable incr : $var_incr"
+echo "Addition 10 + 5 = $((10 + 5))"
+echo "Addition a + b = $(($a + $b))"
 
-((var_decr--))
-echo "Variable decr : $var_decr"
+echo "Soustraction 10 - 7 = $((10 - 7))"
+echo "Soustraction b - a = $(($b - $a))"
+echo "Soustraction a - b = $(($a - $b))"
+
+echo "Multiplication 2 * 3 = $((2 * 3))"
+echo "Multiplication a * b = $(($a * $b))"
+
+echo "Division 10 / 2 = $((10 / 2))"
+echo "Division a / b = $(($a / $b))" #Quel est le problème ici ?
+echo "Division b / a = $(($b / $a))"
+
+echo "Modulo 10 % 4 = $((10 % 4))"
+echo "Modulo a % b = $(($a % $b))"
+echo "Modulo b % a = $(($b % $a))"
+
+((a++))
+echo "Variable a incr : $a"
+
+((b--))
+echo "Variable b decr : $b"
