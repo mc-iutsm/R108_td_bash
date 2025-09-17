@@ -10,3 +10,13 @@ echo "PID du script       : $$"
 
 ls
 echo "Code retour de la dernière commande (ls) : $?"
+
+echo "Arguments avec \$@ :"
+for arg in "$@"; do
+    echo " - $arg"
+done
+
+echo "Arguments avec \$* :"
+for arg in $*; do
+    echo " - $arg"
+done
