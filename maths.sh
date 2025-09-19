@@ -11,7 +11,6 @@ echo #espace
 
 #Addition de deux entiers :
 echo "Addition 10 + 5 = $((10 + 5))"
-echo "Addition 10 + 5 = $(expr 10 + 5)"
 echo "Addition 10 + 5 = `expr 10 + 5`" 
 echo #espace 
 
