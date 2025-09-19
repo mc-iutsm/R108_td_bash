@@ -1,5 +1,5 @@
 #!/bin/bash
-#essayez le script avec ces arguments : pomme "poire verte" banane
+#essayez le script avec ces arguments : poire "pomme verte" banane
 #les guillemets permettent d'utiliser un espace dans un argument
 
 echo "Nom du script       : $0"
