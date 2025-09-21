@@ -14,11 +14,6 @@ echo "Addition 10 + 5 = $((10 + 5))"
 echo "Addition 10 + 5 avec expr = `expr 10 + 5`" 
 echo 
 
-#Addition de deux variables : 
-echo "Addition a + b = $(($a + $b))"
-echo "Addition a + b avec expr = `expr $a + $b`" 
-echo 
-
 #Multiplacation de deux variables : 
 echo "Multiplication a * b = $(($a * $b))"
 echo "Multiplication a * b avec expr = `expr $a \* $b`"
