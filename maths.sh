@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #Déclaration de deux variables :
-a=4
-b=9
+read -p "valeur de a: " a #Pour que le message du prompt et la saisie soit sur la même ligne, on utilise l'option -p
+read -p "valeur de b: " b
 
 #Affichage des deux variables :
 echo "a = $a"
@@ -16,8 +16,7 @@ echo
 
 #Multiplacation de deux variables : 
 echo "Multiplication a * b = $(($a * $b))"
-echo "Multiplication a * b avec expr = `expr $a \* $b`"
-echo 
+echo "Multiplication a * b avec expr = `expr $a \* $b`" #il faut ajouter \ ici sinon il considère que c'est un joker
 
 #Incrémentation d'une variable : 
 ((a++))
